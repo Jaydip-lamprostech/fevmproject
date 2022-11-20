@@ -18,7 +18,17 @@ export default function Navbar({ children }) {
           <span className={styles.logo}>
             <Link href={"/"}>
               {/* <Image src={logo} alt="logo" /> */}
-              <h1>LOGO</h1>
+              <h1 className="logo-h1">
+                <span className="span-1">U</span>
+                <span className="span-2">p</span>
+                <span className="span-3">T</span>
+                <span className="span-4">o</span>
+                <span className="span-5">D</span>
+                <span className="span-6">a</span>
+                <span className="span-7">t</span>
+                <span className="span-8">a</span>
+                {/* UpToData */}
+              </h1>
             </Link>
           </span>
           <ul
@@ -45,10 +55,10 @@ export default function Navbar({ children }) {
                 <a
                   //   target="_blank"
                   //   rel="noopener noreferrer"
-                  href="#staking"
+                  href="#dealdata"
                   className={styles.navlink}
                 >
-                  Staking
+                  DealData
                 </a>
               </span>
             </li>
@@ -57,10 +67,10 @@ export default function Navbar({ children }) {
                 <a
                   //   target="_blank"
                   //   rel="noopener noreferrer"
-                  href="#vault"
+                  href="#token"
                   className={styles.navlink}
                 >
-                  Vault
+                  Token
                 </a>
               </span>
             </li>
@@ -85,14 +95,24 @@ export default function Navbar({ children }) {
       <div className={styles.container}>
         <footer className={styles.footer}>
           <span>Hacked</span>
-          <span> @ </span>
+          <span>@</span>
+          ETHGlobal&apos;s
           <a
             target="_blank"
             href="https://fevm.ethglobal.com/"
             rel="noopener noreferrer"
           >
-            FEVM
+            Hack FEVM
           </a>
+          <span className="miro-link">
+            <a
+              target="_blank"
+              href="https://miro.com/app/board/uXjVPBvZqS4=/?share_link_id=108563393303"
+              rel="noopener noreferrer"
+            >
+              Miro Board
+            </a>
+          </span>
         </footer>
       </div>
     </>

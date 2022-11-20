@@ -47,15 +47,20 @@ h1.heroh1 {
 }
 
 p.herop1 {
-  margin: 30px 0px;
   line-height: 2;
-  max-width: 90%;
+  max-width: 95%;
   word-wrap: break-word;
   font-size: 25px;
   font-family: "Merriweather Sans";
   font-weight: 400;
   --animate-duration: 800ms;
   --animate-delay: 0.1s;
+}
+p.herop1:first-of-type {
+  margin: 30px 0px 0px 0px;
+}
+p.herop1:last-of-type {
+  margin: 0px 0px 30px 0px;
 }
 
 button.herofirstbutton,
@@ -93,7 +98,8 @@ button.herofirstbutton-2 {
 }
 
 .parentofcode {
-  max-width: 80%;
+  max-width: 70%;
+  min-width: 70%;
   display: flex;
   justify-content: center;
   background: linear-gradient(90deg, #945dd6, #f46737, #13adc7);
@@ -102,6 +108,78 @@ button.herofirstbutton-2 {
   margin: 50px 0px;
 }
 
+.miro-link {
+  margin-left: auto;
+}
+/* h1.logo-h1 {
+  animation: slideInDown; 
+  animation-duration: 800ms;
+  animation-delay: 2s; 
+} */
+.miro-image {
+  width: 100%;
+  height: 100%;
+}
+span.span-1 {
+  animation: slideInDown;
+  animation-duration: 800ms;
+  animation-delay: 0;
+}
+span.span-2 {
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 800ms;
+  animation-delay: 0.5s;
+}
+span.span-3 {
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1000ms;
+  animation-delay: 1s;
+}
+span.span-4 {
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2000ms;
+  animation-delay: 1.5s;
+}
+span.span-5 {
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 800ms;
+  animation-delay: 2s;
+}
+span.span-6 {
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 800ms;
+  animation-delay: 2.5s;
+}
+span.span-7 {
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 800ms;
+  animation-delay: 3s;
+}
+span.span-8 {
+  animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 800ms;
+  animation-delay: 3.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1.heroh1 {
+    font-size: 2.3rem;
+  }
+  p.herop1 {
+    font-size: 1.3rem;
+    max-width: 100%;
+    line-height: 1.5;
+  }
+  button.herofirstbutton {
+    padding: 15px 40px;
+    font-size: 15px;
+  }
+  h2.contractsheading {
+    font-size: 2rem;
+    border: none;
+    padding-bottom: 0px;
+  }
+}
 @media only screen and (max-width: 768px) {
   h1.heroh1 {
     font-size: 2rem;

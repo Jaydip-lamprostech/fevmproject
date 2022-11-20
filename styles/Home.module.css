@@ -58,7 +58,10 @@
   font-family: "Merriweather Sans";
   font-weight: 700;
 }
-
+.logo h1 {
+  line-height: 2;
+  font-size: 30px;
+}
 .navmenu {
   /* margin-left: auto; */
   padding: 0 25px;
@@ -79,15 +82,16 @@
 }
 
 .navlink {
-  font-size: 16px;
+  font-size: 1.2rem;
   font-family: "Merriweather Sans";
   font-weight: 400;
 }
 
 .hamburger {
-  background-color: #ffffff;
+  background-color: #ff7700;
   display: none;
   color: rgb(29, 29, 29);
+  border: none;
   border-radius: 8px;
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
@@ -111,7 +115,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .hr {
@@ -158,6 +162,7 @@
   overflow-x: hidden;
   overflow-y: scroll;
   text-align: justify;
+  width: 100%;
   /* 
   width: 80%;
   max-width: 80%; */
@@ -222,8 +227,16 @@
   padding: 0px 10px;
   /* color: #7effe0; */
 }
+/* .features ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 .features li {
+  /* max-width: 90%; */
   margin: 10px 0px;
+  font-size: 20px;
 }
 .hero {
   width: 90%;
@@ -248,7 +261,9 @@
   margin: 20px 0px;
   font-family: "Merriweather Sans";
 }
-
+.contractdiv h2 {
+  font-size: 30px;
+}
 .herosecond {
   width: 100%;
   max-width: 100vw;
@@ -267,7 +282,7 @@
   font-size: 1.3rem;
 }
 .footer span {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 .footer a {
   margin: 10px;
@@ -306,6 +321,10 @@
   }
   .contractdiv {
     border-top: 1px solid #555;
+  }
+  .logo h1 {
+    line-height: 1;
+    font-size: default;
   }
   .footer a {
     margin: 2px;
