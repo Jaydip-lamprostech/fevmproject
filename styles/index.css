@@ -5,7 +5,7 @@ h2.contractsheading {
 }
 
 h1.heroh1 {
-  font-size: 65px;
+  font-size: 3.5rem;
   margin: 5px 0px;
   font-family: "Merriweather Sans";
   font-weight: 700;
@@ -45,7 +45,7 @@ h1.heroh1 {
 
 p.herop1 {
   margin: 30px 0px;
-  max-width: 85%;
+  max-width: 90%;
   word-wrap: break-word;
   font-size: 25px;
   font-family: "Merriweather Sans";
@@ -70,4 +70,35 @@ button.herofirstbutton {
   box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.3);
   --animate-duration: 1000ms;
   --animate-delay: 0.1s;
+}
+
+.bg {
+  min-height: 100%;
+  width: 100%;
+  background-image: url("../src/assets/simple-dashed.png");
+  /* position: absolute; */
+  /* opacity: 30%; */
+  /* z-index: 1; */
+}
+
+@media only screen and (max-width: 768px) {
+  h1.heroh1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  p.herop1 {
+    text-align: center;
+    font-size: 1.4rem;
+    max-width: 100%;
+  }
+  button.herofirstbutton {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  h2.contractsheading {
+    font-size: 2rem;
+  }
+  .heroinsidesecond {
+    width: 100%;
+  }
 }

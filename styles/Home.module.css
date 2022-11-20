@@ -270,7 +270,9 @@
     visibility: hidden;
   } */
   .hero {
-    height: auto;
+    height: 90vh;
+    flex-direction: column-reverse;
+    justify-content: center;
   }
   .container {
     max-width: 100%;
@@ -279,10 +281,17 @@
     max-width: 100%;
     padding: 5px;
   }
+
+  .heroinsidefirst {
+    width: 100%;
+    text-align: center;
+  }
   .herosecond {
     width: 100%;
   }
-
+  .contractdiv {
+    border-top: 1px solid #555;
+  }
   .footer a {
     margin: 2px;
     font-size: 14px;

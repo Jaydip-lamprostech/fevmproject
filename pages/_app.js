@@ -4,9 +4,13 @@ import "../styles/index.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Navbar>
-      <Component {...pageProps} />
-    </Navbar>
+    <>
+      <div class="bg">
+        <Navbar>
+          <Component {...pageProps} />
+        </Navbar>
+      </div>
+    </>
   );
 }
 
