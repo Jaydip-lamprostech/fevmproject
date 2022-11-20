@@ -306,6 +306,10 @@
   /* .connect {
     visibility: hidden;
   } */
+
+  .footer span {
+    padding: 0 0.3rem;
+  }
   .hero {
     height: 80vh;
     flex-direction: column-reverse;
@@ -336,9 +340,12 @@
   .features li {
     font-size: 15px;
   }
-  .footer a {
-    margin: 2px;
+  .footer {
     font-size: 14px;
+  }
+  .footer a {
+    padding-left: 0.5rem;
+    margin: 2px;
   }
 
   .navbar {

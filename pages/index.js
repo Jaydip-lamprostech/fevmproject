@@ -396,14 +396,15 @@ export default function Home() {
           <p className="herop1 animate__animated animate__fadeInDown">
             eg. image, article, scientific research, etc.
           </p>
-          <button className="herofirstbutton animate__animated animate__fadeIn">
-            <a
-              href="https://miro.com/app/board/uXjVPBvZqS4=/?share_link_id=108563393303"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn more
-            </a>{" "}
+          <button
+            className="herofirstbutton"
+            onClick={() => {
+              window.open(
+                "https://miro.com/app/board/uXjVPBvZqS4=/?share_link_id=108563393303"
+              );
+            }}
+          >
+            Learn more
           </button>
         </div>
         <div className="heroinsidesecond animate__animated animate__fadeIn">
