@@ -225,6 +225,7 @@
   font-family: "Merriweather Sans";
   font-weight: 400;
   padding: 0px 10px;
+  max-width: 100%;
   /* color: #7effe0; */
 }
 /* .features ul {
@@ -233,8 +234,14 @@
   justify-content: center;
   align-items: center;
 } */
+.features ul {
+  max-width: 90%;
+}
 .features li {
   /* max-width: 90%; */
+  width: 100%;
+  max-width: 100%;
+  word-wrap: break-word;
   margin: 10px 0px;
   font-size: 20px;
 }
@@ -325,6 +332,9 @@
   .logo h1 {
     line-height: 1;
     font-size: default;
+  }
+  .features li {
+    font-size: 15px;
   }
   .footer a {
     margin: 2px;

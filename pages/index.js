@@ -483,7 +483,7 @@ export default function Home() {
               <li>UTD is the symbol of the token.</li>
               <li>
                 Contract is deployed at
-                &apos;0x6D79555eb6d32BAF438991d26Bb5a38Fe36Ae4DB&apos;
+                0x6D79555eb6d32BAF438991d26Bb5a38Fe36Ae4DB
               </li>
             </ul>
           </span>
