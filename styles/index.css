@@ -1,12 +1,13 @@
 h2.contractsheading {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-family: "Merriweather Sans";
   font-weight: 700;
 }
 
 h1.heroh1 {
   font-size: 65px;
   margin: 5px 0px;
-  font-family: "Lobster Two";
+  font-family: "Merriweather Sans";
   font-weight: 700;
   --animate-duration: 800ms;
   --animate-delay: 0.1s;
@@ -47,6 +48,8 @@ p.herop1 {
   max-width: 85%;
   word-wrap: break-word;
   font-size: 25px;
+  font-family: "Merriweather Sans";
+  font-weight: 400;
   --animate-duration: 900ms;
   --animate-delay: 0.1s;
 }
@@ -56,6 +59,8 @@ button.herofirstbutton {
   padding: 1rem 3rem;
   font-size: 20px;
   color: white;
+  font-family: "Merriweather Sans";
+  font-weight: 400;
   /* background-color: #f46737; */
   border-radius: 99999px;
   border: 2px solid #ffa011;
