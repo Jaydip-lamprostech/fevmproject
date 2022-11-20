@@ -2,6 +2,9 @@ h2.contractsheading {
   font-size: 3rem;
   font-family: "Merriweather Sans";
   font-weight: 700;
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #555;
 }
 
 h1.heroh1 {
@@ -55,10 +58,10 @@ p.herop1 {
   --animate-delay: 0.1s;
 }
 
-button.herofirstbutton {
+button.herofirstbutton,
+button.herofirstbutton-2 {
   margin-top: 10px;
-  padding: 1rem 3rem;
-  font-size: 20px;
+
   color: white;
   font-family: "Merriweather Sans";
   font-weight: 400;
@@ -72,7 +75,14 @@ button.herofirstbutton {
   --animate-duration: 800ms;
   --animate-delay: 0.1s;
 }
-
+button.herofirstbutton {
+  padding: 1rem 3rem;
+  font-size: 20px;
+}
+button.herofirstbutton-2 {
+  font-size: 15px;
+  padding: 1rem 2rem;
+}
 .bg {
   min-height: 100%;
   width: 100%;
@@ -109,6 +119,8 @@ button.herofirstbutton {
   }
   h2.contractsheading {
     font-size: 2rem;
+    border: none;
+    padding-bottom: 0px;
   }
   .heroinsidesecond {
     width: 100%;

@@ -33,10 +33,10 @@ export default function Navbar({ children }) {
                 <a
                   //   target="_blank"
                   //   rel="noopener noreferrer"
-                  href="#lending"
+                  href="#dao"
                   className={styles.navlink}
                 >
-                  Lending
+                  DAO
                 </a>
               </span>
             </li>
@@ -81,6 +81,20 @@ export default function Navbar({ children }) {
       </header>
 
       {children}
+      {/* footer */}
+      <div className={styles.container}>
+        <footer className={styles.footer}>
+          <span>Hacked</span>
+          <span> @ </span>
+          <a
+            target="_blank"
+            href="https://fevm.ethglobal.com/"
+            rel="noopener noreferrer"
+          >
+            FEVM
+          </a>
+        </footer>
+      </div>
     </>
   );
 }
