@@ -455,6 +455,7 @@ export default function Home() {
                 Deal info such as size, label, start time, end time, price,
                 client, provider, verified, and activation
               </li>
+              <li>Importing MarketAPI & MarketTypes</li>
             </ul>
           </span>
           <button className="herofirstbutton-2">
