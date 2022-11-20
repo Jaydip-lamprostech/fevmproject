@@ -1,0 +1,68 @@
+h2.contractsheading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h1.heroh1 {
+  font-size: 65px;
+  margin: 5px 0px;
+  font-family: "Lobster Two";
+  font-weight: 700;
+  --animate-duration: 800ms;
+  --animate-delay: 0.1s;
+}
+.heroinsidesecond {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroimage {
+  width: 70%;
+  height: 70%;
+  transform: rotate(45deg);
+  -webkit-box-shadow: 0px 0px 60px 5px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 0px 60px 5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 60px 5px rgba(255, 255, 255, 0.5);
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+}
+.inside {
+  position: absolute;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  /* right: 50%; */
+  /* height: 10%; */
+  color: #ffffff;
+}
+
+p.herop1 {
+  margin: 30px 0px;
+  max-width: 85%;
+  word-wrap: break-word;
+  font-size: 25px;
+  --animate-duration: 900ms;
+  --animate-delay: 0.1s;
+}
+
+button.herofirstbutton {
+  margin-top: 10px;
+  padding: 1rem 3rem;
+  font-size: 20px;
+  color: white;
+  /* background-color: #f46737; */
+  border-radius: 99999px;
+  border: 2px solid #ffa011;
+  background: linear-gradient(90deg, #ff4c00, #ff7700);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.3);
+  --animate-duration: 1000ms;
+  --animate-delay: 0.1s;
+}
