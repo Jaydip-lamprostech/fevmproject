@@ -45,12 +45,13 @@ h1.heroh1 {
 
 p.herop1 {
   margin: 30px 0px;
+  line-height: 2;
   max-width: 90%;
   word-wrap: break-word;
   font-size: 25px;
   font-family: "Merriweather Sans";
   font-weight: 400;
-  --animate-duration: 900ms;
+  --animate-duration: 800ms;
   --animate-delay: 0.1s;
 }
 
@@ -68,7 +69,7 @@ button.herofirstbutton {
   -webkit-box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.3);
   -moz-box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.3);
   box-shadow: 0px 5px 10px 0px rgba(255, 255, 255, 0.3);
-  --animate-duration: 1000ms;
+  --animate-duration: 800ms;
   --animate-delay: 0.1s;
 }
 
@@ -88,6 +89,7 @@ button.herofirstbutton {
   background: linear-gradient(90deg, #945dd6, #f46737, #13adc7);
   padding: 5px;
   border-radius: 10px;
+  margin: 50px 0px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -99,6 +101,7 @@ button.herofirstbutton {
     text-align: center;
     font-size: 1.4rem;
     max-width: 100%;
+    line-height: 1.5;
   }
   button.herofirstbutton {
     padding: 10px 20px;

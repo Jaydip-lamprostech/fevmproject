@@ -84,9 +84,9 @@
 }
 
 .hamburger {
-  background-color: #231942;
+  background-color: #ffffff;
   display: none;
-  color: #dddbf1;
+  color: rgb(29, 29, 29);
   border-radius: 8px;
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
@@ -110,7 +110,7 @@
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .hr {
@@ -218,7 +218,11 @@
   text-align: start;
   font-family: "Merriweather Sans";
   font-weight: 400;
+  padding: 0px 10px;
   /* color: #7effe0; */
+}
+.features li {
+  margin: 10px 0px;
 }
 .hero {
   width: 90%;
