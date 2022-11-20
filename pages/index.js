@@ -429,7 +429,7 @@ export default function Home() {
             {" "}
             <a
               target="_blank"
-              href="https://github.com/Bhumi18/UpToDataDAO/blob/main/DAO.sol"
+              href="https://github.com/Jaydip-lamprostech/fevmproject/blob/main/Contracts/DAO.sol"
               rel="noopener noreferrer"
             >
               View on Github
@@ -461,7 +461,7 @@ export default function Home() {
           <button className="herofirstbutton-2">
             <a
               target="_blank"
-              href="https://github.com/Bhumi18/UpToDataDAO/blob/main/DealData.sol"
+              href="https://github.com/Jaydip-lamprostech/fevmproject/blob/main/Contracts/DealData.sol"
               rel="noopener noreferrer"
             >
               View on Github
@@ -490,7 +490,7 @@ export default function Home() {
           <button className="herofirstbutton-2">
             <a
               target="_blank"
-              href="https://github.com/Bhumi18/UpToDataDAO/blob/main/Token.sol"
+              href="https://github.com/Jaydip-lamprostech/fevmproject/blob/main/Contracts/Token.sol"
               rel="noopener noreferrer"
             >
               View on Github
